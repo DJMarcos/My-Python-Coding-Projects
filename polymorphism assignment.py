@@ -12,7 +12,7 @@ class User:
         else:
             print("The password or email is incorrect.")
 
-class Employee(User)
+class Employee(User):
     base_pay = 30.25
     department = "General"
     pin_number = "89030"
@@ -27,7 +27,7 @@ class Employee(User)
             print("The password or email is incorrect.")
 
 
-class Empolyee2(User)
+class Empolyee2(User):
     base_pay = 12.48
     company = "vending"
     access_pin = "92900"
@@ -50,8 +50,8 @@ customer = User()
 customer.getLoginInfo()
 
 manager = Employee()
-manger = getLoginInfo()
+manager = getLoginInfo()
 
 genator = Empoyee2()
-genator = GetLoginInfo
+genator = GetLoginInfo()
     
