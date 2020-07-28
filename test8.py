@@ -27,7 +27,7 @@ with conn:
     cur = conn.cursor()
     for file in fileList:
         if file.endswith(".txt"):
-            cur.execute ("INSERT FILE INTO THE TABLE")
+            cur.execute("INSERT INTO tbl_assingment(col_file) VALUES(?)", [file])
     
 conn.close()
 
